@@ -4,7 +4,8 @@ set runtimepath=/home/leonard/Documents/src/system/vimki,/usr/share/vim/vimfiles
 set nocompatible
 
 source /home/leonard/Documents/src/system/vimki/autoload/pathogen.vim
-execute pathogen#infect('/home/leonard/Documents/src/system/vimki/{}')
+execute pathogen#infect('/home/leonard/Documents/src/system/vimki/bundle/{}')
+silent! call pathogen#helptags()
 
 
 " Loading configuration files in proper order

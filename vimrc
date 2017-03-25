@@ -14,3 +14,6 @@ source ~/.vim/vimrc.d/settings.vim
 source ~/.vim/vimrc.d/interface.vim
 source ~/.vim/vimrc.d/autocommands.vim
 source ~/.vim/vimrc.d/mappings.vim
+
+" Setting completion function to emoji
+set omnifunc=emoji#complete

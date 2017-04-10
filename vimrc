@@ -7,7 +7,6 @@ source /home/leonard/Documents/src/system/vimki/autoload/pathogen.vim
 execute pathogen#infect('/home/leonard/Documents/src/system/vimki/bundle/{}')
 silent! call pathogen#helptags()
 
-
 " Loading configuration files in proper order
 source ~/.vim/vimrc.d/colorscheme.vim
 source ~/.vim/vimrc.d/settings.vim
@@ -17,3 +16,9 @@ source ~/.vim/vimrc.d/mappings.vim
 
 " Setting completion function to emoji
 set omnifunc=emoji#complete
+
+augroup setup
+  autocmd VimEnter * Goyo 120
+  autocmd VimEnter * Limelight
+augroup END
+

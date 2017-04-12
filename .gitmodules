@@ -13,3 +13,9 @@
 [submodule "bundle/limelight.vim"]
 	path = bundle/limelight.vim
 	url = https://github.com/junegunn/limelight.vim.git
+[submodule "bundle/ultisnips"]
+	path = bundle/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
+[submodule "bundle/vim-livedown"]
+	path = bundle/vim-livedown
+	url = https://github.com/shime/vim-livedown.git

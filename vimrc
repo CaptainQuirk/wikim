@@ -18,7 +18,7 @@ source ~/.vim/vimrc.d/mappings.vim
 set omnifunc=emoji#complete
 
 augroup setup
-  autocmd VimEnter * Goyo 120
-  autocmd VimEnter * Limelight
+  autocmd VimEnter,BufNewFile,BufRead * Goyo 120
+  autocmd VimEnter,BufNewFile,BufRead * Limelight
 augroup END
 

@@ -22,3 +22,7 @@ augroup setup
   autocmd VimEnter,BufNewFile,BufRead * Limelight
 augroup END
 
+if filereadable(glob("./.vim/abbreviations.vim"))
+  source ./.vim/abbreviations.vim
+endif
+
